@@ -3,24 +3,23 @@ from statsmodels.tsa.arima.model import ARIMA
 import streamlit as st
 import plotly.graph_objs as go
 
-# Load data
-try:
-    Data = pd.read_csv('Netflix-Subscriptions.csv')
-    time_series = Data.set_index('Time Period')['Subscribers']
-except FileNotFoundError:
-    st.error("File not found. Please make sure the file path is correct.")
-    st.stop()
+Data['Time Period'] = pd.to_datetime(Data['Time Period'],
+                                     format='%d/%m/%Y')
+
+
+Data = pd.read_csv('Netflix-Subscriptions.csv')
+Data['Time Period'] = pd.to_datetime(Data['Time Period'],
+                                     format='%d/%m/%Y')
+time_series = Data.set_index('Time Period')['Subscribers']
+
 
 # Define the ARIMA model parameters
 p, d, q = 1, 1, 1
 
 # Fit the ARIMA model
-try:
-    model = ARIMA(time_series, order=(p, d, q))
-    results = model.fit()
-except Exception as e:
-    st.error(f"An error occurred while fitting the ARIMA model: {str(e)}")
-    st.stop()
+
+model = ARIMA(time_series, order=(p, d, q))
+results = model.fit()
 
 # Streamlit app
 st.set_page_config(page_title="Netflix Quarterly Subscription Predictions")
