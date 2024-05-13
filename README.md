@@ -25,11 +25,11 @@ The primary goal of this report is to provide a reliable forecast of Netflix's s
 ## Dashboard Images
 Below are two dashboard images showcasing key insights from the analysis:
 
-![GitHub Logo](https://github.com/Ankit-KK/Netflix-predictions/blob/main/Dashboard.PNG)
-*Caption: Description of the first dashboard image.*
+![Dashboard Image 1](https://github.com/Ankit-KK/Netflix-predictions/blob/main/Dashboard.PNG)
+*Dashboard featuring predictions for five quarters*
 
-![Dashboard Image 2](dashboard_image_2.png)
-*Caption: Description of the second dashboard image.*
+![Dashboard Image 2](https://github.com/Ankit-KK/Netflix-predictions/blob/main/newplot.png)
+*Dashboard featuring predictions for ten quarters*
 
 ## Target Audience
 This report is intended for data analysts, financial forecasters, Netflix strategic planners, and anyone interested in understanding the application of time series analysis in a real-world business scenario.
