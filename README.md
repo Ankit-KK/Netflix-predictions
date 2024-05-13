@@ -1,7 +1,7 @@
 # Netflix Predictions Report
 
 ## Overview
-This document, `Netflix_Predictions.pdf`, presents a comprehensive analysis of Netflix's quarterly subscription trends using the ARIMA (AutoRegressive Integrated Moving Average) model. The report is aimed at forecasting future subscription rates by employing time series analysis techniques.
+This document, `Netflix_Predictions.ipynb`, presents a comprehensive analysis of Netflix's quarterly subscription trends using the ARIMA (AutoRegressive Integrated Moving Average) model. The report is aimed at forecasting future subscription rates by employing time series analysis techniques.
 
 ## Methodology
 The ARIMA model is applied to the historical subscription data, transforming it into a time series format suitable for identifying trends and patterns. The report includes:
