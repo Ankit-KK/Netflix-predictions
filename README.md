@@ -25,7 +25,7 @@ The primary goal of this report is to provide a reliable forecast of Netflix's s
 ## Dashboard Images
 Below are two dashboard images showcasing key insights from the analysis:
 
-![Dashboard Image 1](/assets/images/electrocat.png)
+![Dashboard Image 1](/assets/images/Dashboard.png)
 *Caption: Description of the first dashboard image.*
 
 ![Dashboard Image 2](dashboard_image_2.png)
