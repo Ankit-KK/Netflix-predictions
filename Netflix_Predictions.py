@@ -3,8 +3,7 @@ from statsmodels.tsa.arima.model import ARIMA
 import streamlit as st
 import plotly.graph_objs as go
 
-Data['Time Period'] = pd.to_datetime(Data['Time Period'],
-                                     format='%d/%m/%Y')
+
 
 
 Data = pd.read_csv('Netflix-Subscriptions.csv')
