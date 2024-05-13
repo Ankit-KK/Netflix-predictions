@@ -25,7 +25,7 @@ The primary goal of this report is to provide a reliable forecast of Netflix's s
 ## Dashboard Images
 Below are two dashboard images showcasing key insights from the analysis:
 
-![GitHub Logo](images/Dashboard.PNG)
+![GitHub Logo]([images/Dashboard.PNG](https://github.com/Ankit-KK/Netflix-predictions/blob/main/Dashboard.PNG))
 *Caption: Description of the first dashboard image.*
 
 ![Dashboard Image 2](dashboard_image_2.png)
