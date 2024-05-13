@@ -22,11 +22,25 @@ The primary goal of this report is to provide a reliable forecast of Netflix's s
 - Forecasting Netflix Quarterly Subscriptions
 - Conclusion and Recommendations
 
+## Dashboard Images
+Below are two dashboard images showcasing key insights from the analysis:
+
+![Dashboard Image 1](dashboard_image_1.png)
+*Caption: Description of the first dashboard image.*
+
+![Dashboard Image 2](dashboard_image_2.png)
+*Caption: Description of the second dashboard image.*
+
 ## Target Audience
 This report is intended for data analysts, financial forecasters, Netflix strategic planners, and anyone interested in understanding the application of time series analysis in a real-world business scenario.
 
 ## Additional Information
 - The report is structured to be accessible to readers with a basic understanding of statistical modeling.
 - Visual aids are provided to support the analysis and findings.
+
+
+Thank you for your interest in the Netflix Predictions report.
+
 ---
+
 *This README file is a brief introduction to the `Netflix_Predictions.pdf` document. Please refer to the actual report for detailed information and analysis.*
